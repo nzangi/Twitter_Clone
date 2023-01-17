@@ -124,3 +124,49 @@ body{
     margin-top: 20px;
     margin-left: auto;
 }
+/* post */
+.post_avatar img{
+    border-radius: 50%;
+    height: 40px;
+}
+.post{
+    display: flex;
+    border-bottom: 1px solid var(--twitter-background);
+    padding-bottom: 10px;
+}
+.post__body img{
+    width: 100%;
+    margin-top: 10px;
+    object-fit: contain;
+    border-radius: 30px;
+}
+.post_footer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.badge{
+    font: size 14px !important;
+    columns: var(--twitter-color);
+    margin-right: 5px;
+}
+.post__headerSpecial{
+    font-weight: 600;
+    font-size:12px;
+    color: var(--twitter-color)
+}
+post__headerText h3{
+    font: size 15px;
+    margin-bottom: 5px;
+}
+.post__headerDicription{
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+.post__body{
+    /* flex: 1; */
+    padding: 10px;
+}
+.post_avatar{
+    padding: 20px
+}
