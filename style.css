@@ -13,18 +13,18 @@ body{
     cursor: pointer;
 }
 .sidebarOption .material-symbols-rounded, .fa-twitter{
-    padding: 20px;
+    padding: 10px;
 }
 .sidebarOption h2{
-    font-weight: 800;
-    font-size: 20px;
+    font-weight: 600;
+    font-size: 15px;
     margin-right: 20px;
 }
 .sidebarOption:hover{
     background-color: var(--twitter-background);
     border-radius: 30px;
     color: var(--twitter-color);
-    transition: color 100ms ease-in-out;
+    transition: color 100ms ease-out;
 }
 .sidebarOption.active{
     color: var(--twitter-color);
@@ -169,4 +169,37 @@ post__headerText h3{
 }
 .post_avatar{
     padding: 20px
+}
+/* widgets */
+.widgets{
+    float: 0.3;
+
+}
+.widgets_input{
+    display: flex;
+    align-items: center;
+    background-color: var(--twitter-background);
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.widgets_input input{
+    outline: none;
+    background-color: var(--twitter-background);
+    border: none;
+}
+.widgetsSearch__Icon {
+    color: gray;
+}
+.widget_widgetsContainer{
+    margin-top: 15px;
+    margin-left: 20px;
+    padding: 20px;
+    background-color: #f5f8fa;
+    border-radius: 20px;
+}
+.widget_widgetsContainer h2{
+    font-size: 18px;
+    font-weight :800px; 
 }

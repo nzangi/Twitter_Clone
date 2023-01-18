@@ -1,176 +1,266 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Twitter Clone</title>
-    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Twitter</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
 
-    <link rel="stylesheet" href="style.css"/>
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <!--side bar starts -->
     <div class="sidebar">
-        <i class="fab fa-twitter"></i>
-        <div class="sidebarOption active">
-            <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-            <span class="material-symbols-rounded"> home   </span>
-            <h2>Home</h2>
-        </div>
-        <div class="sidebarOption">
-            <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-            <span class="material-symbols-rounded"> search   </span>
-            <h2>Search</h2>
-        </div>
-        <div class="sidebarOption">
-            <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-            <span class="material-symbols-rounded"> explore   </span>
-            <h2>Explore</h2>
-        </div>
-        <div class="sidebarOption">
-            <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-            <span class="material-symbols-rounded"> notifications   </span>
-            <h2>Notifications</h2>
-        </div>
-        <div class="sidebarOption">
-            <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-            <span class="material-symbols-rounded"> mail   </span>
-            <h2>Messages</h2>
-        </div>
-        <div class="sidebarOption">
-            <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-            <span class="material-symbols-rounded"> bookmark   </span>
-            <h2>Bookmarks</h2>
-        </div>
-        <div class="sidebarOption">
-            <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-            <span class="material-symbols-rounded"> list   </span>
-            <h2>List</h2>
-        </div>
-        <div class="sidebarOption">
-            <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-            <span class="material-symbols-rounded"> account_circle</span>
-            <h2>Profile</h2>
-        </div>
-        <div class="sidebarOption">
-            <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-            <span class="material-symbols-rounded"> more_vert   </span>
-            <h2>More</h2>
-        </div>
-        <button class="sidebar__tweet">Tweet</button>
+      <i class="fab fa-twitter"></i>
+      <div class="sidebarOption active">
+        <link
+          rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+        />
+        <span class="material-symbols-rounded">home</span>
+        <h2>Home</h2>
+      </div>
+      <div class="sidebarOption">
+        <link
+          rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+        />
+        <span class="material-symbols-rounded">search</span>
+        <h2>Search</h2>
+      </div>
+      <div class="sidebarOption">
+        <link
+          rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+        />
+        <span class="material-symbols-rounded">explore</span>
+        <h2>Explore</h2>
+      </div>
+      <div class="sidebarOption">
+        <link
+          rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+        />
+        <span class="material-symbols-rounded">notifications</span>
+        <h2>Notifications</h2>
+      </div>
+      <div class="sidebarOption">
+        <link
+          rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+        />
+        <span class="material-symbols-rounded">mail</span>
+        <h2>Messages</h2>
+      </div>
+      <div class="sidebarOption">
+        <link
+          rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+        />
+        <span class="material-symbols-rounded">bookmark</span>
+        <h2>Bookmarks</h2>
+      </div>
+      <div class="sidebarOption">
+        <link
+          rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+        />
+        <span class="material-symbols-rounded">list</span>
+        <h2>List</h2>
+      </div>
+      <div class="sidebarOption">
+        <link
+          rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+        />
+        <span class="material-symbols-rounded">account_circle</span>
+        <h2>Profile</h2>
+      </div>
+      <div class="sidebarOption">
+        <link
+          rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+        />
+        <span class="material-symbols-rounded">more_vert</span>
+        <h2>More</h2>
+      </div>
+      <button class="sidebar__tweet">Tweet</button>
     </div>
     <!--side bar ends -->
 
     <!-- feed starts  -->
 
     <div class="feed">
-        <div class="feed__header">
-            <h2>Home</h2>
-        </div>
+      <div class="feed__header">
+        <h2>Home</h2>
+      </div>
 
-        <!-- tweetbox starts -->
-        <div class="tweetBox">
-            <form>
-                <div class="tweetbox__input">
-                    <img src="/images/my photo.jpg" width = "50px" height = "50px"/>
-                    <input type="text" placeholder ="What's happening ?"/>
+      <!-- tweetbox starts -->
+      <div class="tweetBox">
+        <form>
+          <div class="tweetbox__input">
+            <img src="/images/my photo.jpg" width="50px" height="50px" />
+            <input type="text" placeholder="What's happening ?" />
+          </div>
+          <button class="tweetBox__tweetButton">Tweet</button>
+        </form>
+      </div>
+      <!-- tweetbox ends -->
 
-                </div>
-                <button class="tweetBox__tweetButton">Tweet</button>
-            </form>
+      <!-- post start -->
+      <div class="post">
+        <div class="post_avatar">
+          <img src="/images/my photo.jpg" width="50px" height="50px" />
         </div>
-        <!-- tweetbox ends -->
-
-        <!-- post start -->
-        <div class="post">
-            <div class="post_avatar">
-                <img src="/images/my photo.jpg" width="50px" height="50px"/>
+        <div class="post__body">
+          <div class="post__header">
+            <div class="post__headerText">
+              <h3>
+                Muoki Nzangi
+                <span class="post__headerSpecial">
+                  <link
+                    rel="stylesheet"
+                    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+                  />
+                  <span class="material-symbols-rounded badge">verified</span>
+                  @MuokiNzangi
+                </span>
+              </h3>
             </div>
-            <div class="post__body">
-                <div class="post__header">
-                    <div class="post__headerText">
-                        <h3>Muoki Nzangi
-                            <span class="post__headerSpecial">
-                                <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
-                                <span class="material-symbols-rounded badge">verified</span>@MuokiNzangi
-                            </span>
-                        </h3>
-                    </div>
-                    <div class="post__headerDicription">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit !</p>
-                    </div>
-                </div>
-                <img src="/images/my car.jpg" width="650px" height="330px"/>
-                <div class="post_footer">
-                    <span class="material-symbols-outlined">quickreply</span>
-                    <span class="material-symbols-outlined">repeat</span>
-                    <span class="material-symbols-outlined">favorite</span>
-                    <span class="material-symbols-outlined">share</span>
-                </div>
+            <div class="post__headerDicription">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit !</p>
             </div>
+          </div>
+          <img src="/images/my car.jpg" width="650px" height="330px" />
+          <div class="post_footer">
+            <span class="material-symbols-outlined">quickreply</span>
+            <span class="material-symbols-outlined">repeat</span>
+            <span class="material-symbols-outlined">favorite</span>
+            <span class="material-symbols-outlined">share</span>
+          </div>
         </div>
-        <div class="post">
-            <div class="post_avatar">
-                <img src="/images/my photo.jpg" width="50px" height="50px"/>
-            </div>
-            <div class="post__body">
-                <div class="post__header">
-                    <div class="post__headerText">
-                        <h3>Muoki Nzangi
-                            <span class="post__headerSpecial">
-                                <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
-                                <span class="material-symbols-rounded badge">verified</span>@MuokiNzangi
-                            </span>
-                        </h3>
-                    </div>
-                    <div class="post__headerDicription">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit !</p>
-                    </div>
-                </div>
-                <img src="/images/benz1.jpg" width="650px" height="330px"/>
-                <div class="post_footer">
-                    <span class="material-symbols-outlined">quickreply</span>
-                    <span class="material-symbols-outlined">repeat</span>
-                    <span class="material-symbols-outlined">favorite</span>
-                    <span class="material-symbols-outlined">share</span>
-                </div>
-            </div>
+      </div>
+      <div class="post">
+        <div class="post_avatar">
+          <img src="/images/my photo.jpg" width="50px" height="50px" />
         </div>
-        <div class="post">
-            <div class="post_avatar">
-                <img src="/images/my photo.jpg" width="50px" height="50px"/>
+        <div class="post__body">
+          <div class="post__header">
+            <div class="post__headerText">
+              <h3>
+                Muoki Nzangi
+                <span class="post__headerSpecial">
+                  <link
+                    rel="stylesheet"
+                    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+                  />
+                  <span class="material-symbols-rounded badge">verified</span>
+                  @MuokiNzangi
+                </span>
+              </h3>
             </div>
-            <div class="post__body">
-                <div class="post__header">
-                    <div class="post__headerText">
-                        <h3>Muoki Nzangi
-                            <span class="post__headerSpecial">
-                                <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
-                                <span class="material-symbols-rounded badge">verified</span>@MuokiNzangi
-                            </span>
-                        </h3>
-                    </div>
-                    <div class="post__headerDicription">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit !</p>
-                    </div>
-                </div>
-                <img src="/images/benz2.jpg" width="650px" height="330px"/>
-                <div class="post_footer">
-                    <span class="material-symbols-outlined">quickreply</span>
-                    <span class="material-symbols-outlined">repeat</span>
-                    <span class="material-symbols-outlined">favorite</span>
-                    <span class="material-symbols-outlined">share</span>
-                </div>
+            <div class="post__headerDicription">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit !</p>
             </div>
+          </div>
+          <img src="/images/benz1.jpg" width="650px" height="330px" />
+          <div class="post_footer">
+            <span class="material-symbols-outlined">quickreply</span>
+            <span class="material-symbols-outlined">repeat</span>
+            <span class="material-symbols-outlined">favorite</span>
+            <span class="material-symbols-outlined">share</span>
+          </div>
         </div>
-        <!-- post ends -->
-    <!-- feed ends -->
-        <div class="widgets">
-            
+      </div>
+      <div class="post">
+        <div class="post_avatar">
+          <img src="/images/my photo.jpg" width="50px" height="50px" />
         </div>
+        <div class="post__body">
+          <div class="post__header">
+            <div class="post__headerText">
+              <h3>
+                Muoki Nzangi
+                <span class="post__headerSpecial">
+                  <link
+                    rel="stylesheet"
+                    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+                  />
+                  <span class="material-symbols-rounded badge">verified</span>
+                  @MuokiNzangi
+                </span>
+              </h3>
+            </div>
+            <div class="post__headerDicription">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit !</p>
+            </div>
+          </div>
+          <img src="/images/benz2.jpg" width="650px" height="330px" />
+          <div class="post_footer">
+            <span class="material-symbols-outlined">quickreply</span>
+            <span class="material-symbols-outlined">repeat</span>
+            <span class="material-symbols-outlined">favorite</span>
+            <span class="material-symbols-outlined">share</span>
+          </div>
+        </div>
+      </div>
+      <!-- post ends -->
+      <!-- feed ends -->
     </div>
-    
-</body>
+
+    <div class="widgets">
+      <div class="widgets_input">
+        <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" /> -->
+        <span class="material-symbols-outlined widgetsSearch__Icon">
+          search
+        </span>
+        <input type="text" placeholder="Search Twitter" />
+      </div>
+      <div class="widget_widgetsContainer">
+        <h2>What's happening</h2>
+        <blockquote class="twitter-tweet">
+          <p lang="en" dir="ltr">
+            Sunsets don&#39;t get much better than this one over
+            <a href="https://twitter.com/GrandTetonNPS?ref_src=twsrc%5Etfw">
+              @GrandTetonNPS
+            </a>
+            .
+            <a
+              href="https://twitter.com/hashtag/nature?src=hash&amp;ref_src=twsrc%5Etfw"
+            >
+              #nature
+            </a>
+            <a
+              href="https://twitter.com/hashtag/sunset?src=hash&amp;ref_src=twsrc%5Etfw"
+            >
+              #sunset
+            </a>
+            <a href="http://t.co/YuKy2rcjyU">pic.twitter.com/YuKy2rcjyU</a>
+          </p>
+          &mdash; US Department of the Interior (@Interior)
+          <a
+            href="https://twitter.com/Interior/status/463440424141459456?ref_src=twsrc%5Etfw"
+          >
+            May 5, 2014
+          </a>
+        </blockquote>
+        <script
+          async
+          src="https://platform.twitter.com/widgets.js"
+          charset="utf-8"
+        ></script>
+      </div>
+    </div>
+  </body>
 </html>
